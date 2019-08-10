@@ -57,5 +57,15 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+      <id>sourcesup</id>
+      <url>http://localhost:8081/repository/sample-Rel/</url>
+    </repository>
+    <snapshotRepository>
+      <id>sourcesup</id>
+      <url>http://localhost:8081/repository/Sample-Snap/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
